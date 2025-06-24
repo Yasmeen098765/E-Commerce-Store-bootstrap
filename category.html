@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Store | Category</title>
+    <link rel="icon" href="images/favicon.png" />
+    <!-- slidder products using swipperjs library -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="top-header d-flex align-items-center py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <a href="#">
+                <img width="150" src="images/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <input
+                type="text"
+                placeholder="اكتب اسم المنتج للبحث عنه"
+                class="form-control"
+              />
+            </div>
+            <div
+              class="col-md-4 left-header d-flex justify-content-end align-items-center d-none d-lg-flex"
+            >
+              <a
+                data-bs-toggle="offcanvas"
+                href="#cart"
+                role="button"
+                aria-controls="cart"
+              >
+                <span>السلة</span>
+                <i class="fa-solid fa-cart-plus"></i>
+              </a>
+              <a
+                data-bs-toggle="offcanvas"
+                href="#login"
+                role="button"
+                aria-controls="login"
+              >
+                <span>الدخول</span>
+                <i class="fa-solid fa-user"></i>
+              </a>
+              <a href="#">
+                <span>المفضلة</span>
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <button
+              class="navbar-toggler menu-icon"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div>
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#cart"
+                role="button"
+                aria-controls="cart"
+                class="navbar-toggler menu-icon"
+              >
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#login"
+                role="button"
+                aria-controls="login"
+                class="navbar-toggler menu-icon"
+              >
+                <i class="fa-solid fa-user"></i>
+              </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >الرئيسية</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">الأثاث</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">وحدات تخزين</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">ديكورات منزلية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أثاث مكتبي</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">الإضاءة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أقمشة و مفروشات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">المطبخ والحمام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">الأجهزة المنزلية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أثاث خارجى</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أدوات رياضية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">إلكترونيات</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start bunner -->
+    <section class="bunner shadow">
+      <!-- <h1 class="category-title">قسم الجوالات</h1> -->
+    </section>
+    <div class="container mt-5">
+      <button
+        data-bs-toggle="offcanvas"
+        data-bs-target="#filter"
+        role="button"
+        aria-controls="cart"
+        class="navbar-toggler menu-icon d-sm-none border justify-content-center align-items-center px-2 py-1 pt-2 fs-2 mb-2"
+      >
+        <i class="fa-solid fa-filter-circle-dollar text-secondary"></i>
+      </button>
+      <div class="row">
+        <div class="col-md-3 d-none d-md-block">
+          <div class="filter-sec sticky-lg-top">
+            <h4 class="filter-title">فلترة بالبحث</h4>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="اكتب اسم المنتج للبحث عنه"
+            />
+            <select name="" id="" class="form-select mt-3">
+              <option value="">جميع الفئات</option>
+              <option value="sofas">كنبات</option>
+              <option value="chairs">كراسي</option>
+              <option value="entertainment">انتريهات</option>
+              <option value="sets">مجموعات</option>
+            </select>
+            <hr />
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <h4 class="filter-title mt-1">فلترة حسب النوع</h4>
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="filter-radio d-flex flex-column gap-1">
+                      <div>
+                        <input type="radio" class="form-check-input" name="type" id="all-types" checked />
+                        <label for="all-types" class="form-label">الكل</label>
+                      </div>
+                      <div>
+                        <input type="radio" class="form-check-input" name="type" id="sofa-type" />
+                        <label for="sofa-type" class="form-label">كنبات</label>
+                      </div>
+                      <div>
+                        <input type="radio" class="form-check-input" name="type" id="chair-type" />
+                        <label for="chair-type" class="form-label">كراسي</label>
+                      </div>
+                      <div>
+                        <input type="radio" class="form-check-input" name="type" id="entertainment-type" />
+                        <label for="entertainment-type" class="form-label">انتريهات</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <h4 class="filter-title mt-1">فلترة حسب المادة</h4>
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="filter-radio d-flex flex-column gap-1">
+                      <div>
+                        <input type="checkbox" class="form-check-input" name="material" id="wood" />
+                        <label for="wood" class="form-label">خشب زان</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" class="form-check-input" name="material" id="natural-wood" />
+                        <label for="natural-wood" class="form-label">خشب طبيعي</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" class="form-check-input" name="material" id="cotton" />
+                        <label for="cotton" class="form-label">قماش كتان</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" class="form-check-input" name="material" id="velvet" />
+                        <label for="velvet" class="form-label">قماش قطيفة</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" class="form-check-input" name="material" id="leather" />
+                        <label for="leather" class="form-label">جلد</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <h4 class="filter-title mt-1">فلترة حسب اللون</h4>
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="filter-colors d-flex flex-wrap gap-2">
+                      <div class="color-option" data-color="beige" style="background-color: #F5F5DC; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="بيج"></div>
+                      <div class="color-option" data-color="gray" style="background-color: #808080; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="رمادي"></div>
+                      <div class="color-option" data-color="white" style="background-color: #FFFFFF; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #ddd; cursor: pointer;" title="أبيض"></div>
+                      <div class="color-option" data-color="brown" style="background-color: #A52A2A; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="بني"></div>
+                      <div class="color-option" data-color="pink" style="background-color: #FFC0CB; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="زهري"></div>
+                      <div class="color-option" data-color="red" style="background-color: #FF0000; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="أحمر"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h4 class="filter-title mt-1">فلترة حسب السعر</h4>
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <div class="price-range">
+                      <input type="range" class="form-range" min="1000" max="7000" step="500" id="priceRange">
+                      <div class="d-flex justify-content-between">
+                        <span>1000$</span>
+                        <span>7000$</span>
+                      </div>
+                      <div class="text-center mt-2">
+                        <span id="selectedPrice">السعر: 1000$ - 7000$</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="row row-cols-2 row-cols-md-4">
+            <div class="col product mb-3 phones">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/42861_5000x-recovered_2_1.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة</h3>
+                <p>كنبة ركنة و 2 بوف خشب طبيعي و قماش كتان - بيج غامق</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/60_2_8.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة</h3>
+                <p>كنبة بمقعدين خشب زان احمر قماش فوطة</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 acc">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/freepik__expand__18025.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة</h3>
+                <p>كنبة ركنة خشب زان و قماش كتان - رمادي</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/kofur6.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كرسي</h3>
+                <p>كرسي إسترخاء خشب زان و جلد مقلوب مزود بطبقة قطيفة - رمادي</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/COUFUR5-1.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>انتريه</h3>
+                <p>انتريه مودرن 4 قطع خشب زان أحمر و كتان - أوف وايت</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 acc">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/araaaaaaaafa_1_.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة </h3>
+              <p>كنبة ركنة خشب زان أحمر و قماش فوطة </p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 1000$</span>
+                    <span>2000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/egy-fur-27-env.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة</h3>
+              <p>كنبة بثلاثة مقاعد خشب زان طبيعي وقماش قطيفة - اوف وايت</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2000$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/kofur5_1.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كرسي</h3>
+                <p>كرسي إسترخاء خشب زان ,خشب موسكي وام دي اف - بني</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2000$</span>
+                    <span>3000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 acc">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/coyfsr8.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة</h3>
+              <p>كنبة بمقعدين خشب زان أحمر وقماش قطيفة هامر - رمادي</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 1000$</span>
+                    <span>2000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/joufurh8626_2 (1).jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة </h3>
+                 <p>كنبة ركنة خشب طبيعي و قماش كتان - رمادي</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/ELOFU7-1.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>انتريه</h3>
+              <p>انتريه مودرن خشب زان أحمر 3 قطع - زهري و أبيض</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 4000$</span>
+                    <span>7000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 acc">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/joufurh881824-3-beige_r.jpg" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة</h3>
+                  <p>كنبة ركنة خشب طبيعي و قماش كتان - بيج</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <!-- end bunner -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start footer -->
+    <footer class="text-white pt-5 mt-5 mb-0 position-relative">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col f1 mb-3">
+            <img class="w-75" src="images/logo-white.png" alt="logo" />
+            <p class="mt-3 mb-3">
+              متجرنا يهتم بالجودة والخامة النظيفة ونسعى إلى توفير كل جديد وكل ما
+              يرضي عملائنا
+            </p>
+            <ul class="navbar-nav">
+              <li>
+                <i class="fa-solid fa-location-dot"></i
+                ><span>&nbsp;&nbsp;تركيا - اسطنبول</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i><span>&nbsp;05519665883</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                ><span>&nbsp; info@claudsoft.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col f2 mb-3">
+            <h3>أهم الروابط</h3>
+            <ul class="navbar-nav">
+              <li><a href="#">الرئيسية</a></li>
+              <li><a href="#">من نحن</a></li>
+              <li><a href="#">اتصل بنا</a></li>
+              <li><a href="#">الضمان</a></li>
+              <li><a href="#">سياسة الأسترجاع</a></li>
+              <li><a href="#">سياسة الخصوصية</a></li>
+            </ul>
+          </div>
+          <div class="col f3 mb-3">
+            <h3>التصنيفات</h3>
+            <ul class="navbar-nav">
+              <li><a href="#">الأجهزة المنزلية</a></li>
+              <li><a href="#">المطبخ والحمام</a></li>
+              <li><a href="#">إلكترونيات</a></li>
+              <li><a href="#">أثاث خارجى</a></li>
+              <li><a href="#">الإضاءة</a></li>
+              <li><a href="#">ديكورات منزلية</a></li>
+            </ul>
+          </div>
+          <div class="col f4 mb-3">
+            <h3>النشرة البريدية</h3>
+            <p>
+              متجرنا يهتم بالجودة والخامة النظيفة ونسعى إلى توفير كل جديد وكل ما
+              يرضي عملائنا
+            </p>
+            <form action="#">
+              <input
+                type="text"
+                placeholder="الرجاء إدخال البريد"
+                class="form-control mb-3"
+              />
+              <button class="btn btn-danger w-100">اشتراك</button>
+            </form>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 mt-3">
+          <div class="col d-flex justify-content-start align-items-center">
+            <img src="images/payments.png" alt="payments" />
+          </div>
+          <div class="col d-flex justify-content-end align-items-center mt-3">
+            <p class="text-white">
+              جميع الحقوق محفوظة &copy; لمتجر السلام للأدوات الإلكترونية 2025
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- cart -->
+    <div
+    class="offcanvas offcanvas-end"
+    tabindex="-1"
+    id="cart"
+    aria-labelledby="offcanvasExampleLabel"
+  >
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+        سلة المشتريات
+      </h5>
+      <button
+        type="button"
+        class="btn-close text-reset"
+        data-bs-dismiss="offcanvas"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="row row-cols-1 row-mini-card m-1">
+        <div
+          class="col mini-cart d-flex justify-content-around align-items-center"
+        >
+          <img src="images/product/light1.jpg" alt="" class="img-fluid w-25" />
+         <p>مصباح سقف</p>
+          <div class="btn-group btns-quantity-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+        <div
+          class="col mini-cart d-flex justify-content-around align-items-center"
+        >
+          <img src="images/product/Outdoors1_.jpg" alt="" class="img-fluid w-25" />
+          <p>أثاث خارجي</p>
+          <div class="btn-group btns-quantity-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+        <div
+          class="col mini-cart d-flex justify-content-around align-items-center"
+        >
+          <img src="images/product/kitchen1.jpg" alt="" class="img-fluid w-25" />
+          <p>مطبخ مودرن</p>
+          <div class="btn-group btns-quantity-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+        <div
+          class="col mini-cart d-flex justify-content-around align-items-center"
+        >
+          <img src="images/product/dt113.jpg" alt="" class="img-fluid w-25" />
+          <p>غرفة طعام</p>
+          <div class="btn-group btns-quantity-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex flex-column gap-2">
+        <p class="text-center my-3 alert alert-danger p-3">
+          مجموع المنجات 6500$ فقط لا غير
+        </p>
+        <button class="btn btn-primary w-100">
+          <a href="cart.html">عرض السلة</a>
+        </button>
+        <button class="btn btn-danger w-100">
+          <a href="checkout.html">إتمام الطلب </a>
+        </button>
+      </div>
+    </div>
+  </div>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!--   start filter -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="filter"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">الفلترة</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="filter-sec sticky-lg-top">
+          <h4 class="filter-title">فلترة بالبحث</h4>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="اكتب اسم المنتج للبحث عنه"
+          />
+          <select name="" id="" class="form-select mt-3">
+            <option value="">جميع الفئات</option>
+            <option value="sofas">كنبات</option>
+            <option value="chairs">كراسي</option>
+            <option value="entertainment">انتريهات</option>
+            <option value="sets">مجموعات</option>
+          </select>
+          <hr />
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h4 class="filter-title mt-1">فلترة حسب النوع</h4>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="filter-radio d-flex flex-column gap-1">
+                    <div>
+                      <input type="radio" class="form-check-input" name="type" id="all-types" checked />
+                      <label for="all-types" class="form-label">الكل</label>
+                    </div>
+                    <div>
+                      <input type="radio" class="form-check-input" name="type" id="sofa-type" />
+                      <label for="sofa-type" class="form-label">كنبات</label>
+                    </div>
+                    <div>
+                      <input type="radio" class="form-check-input" name="type" id="chair-type" />
+                      <label for="chair-type" class="form-label">كراسي</label>
+                    </div>
+                    <div>
+                      <input type="radio" class="form-check-input" name="type" id="entertainment-type" />
+                      <label for="entertainment-type" class="form-label">انتريهات</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h4 class="filter-title mt-1">فلترة حسب المادة</h4>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="filter-radio d-flex flex-column gap-1">
+                    <div>
+                      <input type="checkbox" class="form-check-input" name="material" id="wood" />
+                      <label for="wood" class="form-label">خشب زان</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" class="form-check-input" name="material" id="natural-wood" />
+                      <label for="natural-wood" class="form-label">خشب طبيعي</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" class="form-check-input" name="material" id="cotton" />
+                      <label for="cotton" class="form-label">قماش كتان</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" class="form-check-input" name="material" id="velvet" />
+                      <label for="velvet" class="form-label">قماش قطيفة</label>
+                    </div>
+                    <div>
+                      <input type="checkbox" class="form-check-input" name="material" id="leather" />
+                      <label for="leather" class="form-label">جلد</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <h4 class="filter-title mt-1">فلترة حسب اللون</h4>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="filter-colors d-flex flex-wrap gap-2">
+                    <div class="color-option" data-color="beige" style="background-color: #F5F5DC; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="بيج"></div>
+                    <div class="color-option" data-color="gray" style="background-color: #808080; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="رمادي"></div>
+                    <div class="color-option" data-color="white" style="background-color: #FFFFFF; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #ddd; cursor: pointer;" title="أبيض"></div>
+                    <div class="color-option" data-color="brown" style="background-color: #A52A2A; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="بني"></div>
+                    <div class="color-option" data-color="pink" style="background-color: #FFC0CB; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="زهري"></div>
+                    <div class="color-option" data-color="red" style="background-color: #FF0000; width: 30px; height: 30px; border-radius: 50%; cursor: pointer;" title="أحمر"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <h4 class="filter-title mt-1">فلترة حسب السعر</h4>
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="price-range">
+                    <input type="range" class="form-range" min="1000" max="7000" step="500" id="priceRange">
+                    <div class="d-flex justify-content-between">
+                      <span>1000$</span>
+                      <span>7000$</span>
+                    </div>
+                    <div class="text-center mt-2">
+                      <span id="selectedPrice">السعر: 1000$ - 7000$</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end filter  -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- login -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="login"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">تسجيل الدخول</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="mini-login">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label"
+                >اسم المستخدم أو البريد الإلكتروني</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">كلمة المرور</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >تذكر بياناتي</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              تسجيل الدخول
+            </button>
+          </form>
+          <div class="alert alert-danger my-3 text-center">
+            <a href="#">انقر هنا في حال نسيت كلمة المرور</a>
+          </div>
+          <hr />
+          <div class="text-center mt-5">
+            <i class="fa-regular fa-user fa-5x"></i>
+            <p>لا يوجد لديك حساب؟</p>
+            <a href="#" class="btn btn-danger w-100 text-white"
+              >إنشاء حساب جديد</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="quick-product"
+      aria-hidden="true"
+      aria-labelledby="quick-productLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title fs-5" id="quick-productLabel">
+              سامسونغ s23
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="col">
+                <img
+                  class="img-fluid"
+                  src="images/product/7.jpg"
+                  alt="سامسونغ s23"
+                />
+                <button class="btn btn-primary w-100">كافة التفاصيل</button>
+              </div>
+              <div class="col">
+                <img
+                  width="40%"
+                  class="mt-3"
+                  src="images/samsung.png"
+                  alt=""
+                /><!--brand mobile-->
+                <h1 class="modal-title fs-5 my-3">سامسونغ s23 لون فضي</h1>
+                <p class="product-description">
+                  تعرف على أصغر فرد في عائلة سامسونج الـ S23 وهو الـ Samsung
+                  Galaxy S23 الذي يأتي بحجم ممتاز ومواصفات ممتازة أبرزها معالج
+                  كوالكم الرائد مع شاشة كبيرة بشكل الثقب فكما معهود من سامسونج
+                </p>
+                <div class="quick-reviews mb-3">
+                  <span>تقييمات المستخدميين</span>
+                  <div class="stars mb-2 d-inline-flex text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+                <div class="price mb-3">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <div class="btns d-flex gap-2">
+                  <div class="btn-group btns-quantity">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex gap-1 add-btn">
+                    <button class="btn btn-danger">إضافة إلى السلة</button>
+                    <button class="btn btn-success">شراء الآن</button>
+                  </div>
+                </div>
+                <hr />
+                <div class="category mb-3">
+                  <span>التصنيفات:</span>
+                  <a href="#">جوالات سامسونغ</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة:</span>
+                  <div class="share-icons d-inline-flex gap-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="quick-product2"
+      aria-hidden="true"
+      aria-labelledby="quick-productLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="quick-productLabel2">Modal 2</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Hide this modal and show the first with the button below.
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#quick-product"
+              data-bs-toggle="modal"
+              data-bs-dismiss="modal"
+            >
+              Back to first
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- filter products using isotope library -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- slider using swipper js library -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- links js -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

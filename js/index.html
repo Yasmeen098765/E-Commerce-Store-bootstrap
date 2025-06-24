@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <!-- font awesome icons: -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- normalize css  -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/logo1.png">
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <a href="/" class="logo">
+          <img src="images/logo1.png" alt="logo" />
+        </a>
+        <nav>
+          <i id="icon-mobile" class="fa-solid fa-bars nav-toggle"></i>
+          <ul id="ul-mobile">
+            <li><a class="active" href="/">الرئيسية</a></li>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#">المدونة</a></li>
+            <li><a href="#portFolio">معرض الأعمال</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start hero section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-info">
+          <h1 class="hero-title1">شركة تكنو تك التقنية</h1>
+          <h2>شبكات-برمجة-صيانة</h2>
+          <p>
+            شركة تكنو تك التقنية هي شركة متخصصة في تقديم حلول تقنية مبتكرة
+            ومتطورة للشركات والمؤسسات. تقدم خدماتها في مجالات تطوير البرمجيات
+            وتصميم المواقع والتطبيقات، بالإضافة إلى الاستشارات التقنية. تشعى
+            الشركة لتوفير حلول فعالة تساعد عملاءها على تحقيق النجاح الرقمي.
+          </p>
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+          </div>
+          <div class="call">
+            <button>اتصل بنا</button>
+            <button>المزيد</button>
+          </div>
+        </div>
+
+        <div class="hero-img">
+          <img src="images/hero-img.png" alt="hero-image manager company" />
+        </div>
+      </div>
+    </section>
+    <!-- end hero section -->
+    <!-- ------------------------------------------------------------------- -->
+    <!--start services section -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2 class="section-title2">خدماتنا الاحترافية</h2>
+        <p class="section-desc">
+          شركة تكنو تك التقنية هي شركة متخصصة في تقديم حلول تقنية مبتكرة ومتطورة
+          للشركات والمؤسسات.
+        </p>
+
+        <div class="all-services">
+          <div class="service">
+            <img src="images/svg/webProgramming.svg" alt="تصميم مواقع الويب" />
+            <h3>برمجة الويب</h3>
+            <p>تطوير مواقع ويب ديناميكية باستخدام أحدث أطر العمل مثل Angular</p>
+          </div>
+
+          <div class="service">
+            <img src="images/svg/mobilePrograming.svg" alt="تطبيقات الجوال" />
+            <h3>برمجة تطبيقات الجوال</h3>
+            <p>تطوير تطبيقات أندرويد و iOS بأداء عالٍ وتجربة مستخدم سلسة</p>
+          </div>
+
+          <div class="service">
+            <img src="images/svg/graphicDesign.svg" alt="متاجر إلكترونية" />
+            <h3>التصميم الجرافيكي</h3>
+            <p>إنشاء تصاميم احترافية للهويات البصرية والمواد التسويقية</p>
+          </div>
+
+          <div class="service">
+            <img src="images/svg/dataAnlays.svg" alt="تحسين محركات البحث" />
+            <h3>تحليل البيانات</h3>
+            <p>تحليل البيانات واستخراج الرؤى لاتخاذ قرارات أعمال ذكية</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services section -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start about section -->
+    <section class="about-us">
+      <div class="container">
+        <div class="about-info">
+          <h2>حول شركة تكنوتك</h2>
+          <p>
+            شركة تكنو تك التقنية هي شركة متخصصة في تقديم حلول تقنية مبتكرة
+            ومتطورة للشركات والمؤسسات. تقدم خدماتها في مجالات تطوير البرمجيات
+            وتصميم المواقع والتطبيقات، بالإضافة إلى الاستشارات التقنية. تسعى
+            الشركة لتوفير حلول فعالة تساعد عملاءها على تحقيق النجاح الرقمي.
+            نلتزم بتقديم أحدث التقنيات وأفضل الحلول المخصصة لتنمية أعمال
+            عملائنا.
+          </p>
+          <button class="about-call">للمزيد اضغط هنا</button>
+        </div>
+        <div class="about-img">
+          <img width="400" src="images/about-img.jpg" alt="Personal Website" />
+        </div>
+      </div>
+    </section>
+    <!-- end about section -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start statistics section -->
+    <section class="statistics">
+      <div class="statistics-overlay"></div>
+      <div class="container">
+        <div class="stat">
+          <i class="fas fa-users fa-3x"></i>
+          <h3>2,450+</h3>
+          <p>عميل راضٍ</p>
+        </div>
+
+        <div class="stat">
+          <i class="fas fa-project-diagram fa-3x"></i>
+          <h3>1,850+</h3>
+          <p>مشروع مكتمل</p>
+        </div>
+
+        <div class="stat">
+          <i class="fas fa-laptop-code fa-3x"></i>
+          <h3>500,000+</h3>
+          <p>سطر برمجي</p>
+        </div>
+
+        <div class="stat">
+          <i class="fas fa-trophy fa-3x"></i>
+          <h3>28</h3>
+          <p>جائزة وتكريم</p>
+        </div>
+      </div>
+    </section>
+    <!-- end  statistics section  -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start courses section -->
+    <section class="courses">
+      <h2 class="section-title2">الكورسات المتوفرة</h2>
+      <p class="section-desc">
+        شركة تكنو تك التقنية تقدم مجموعة متنوعة من الكورسات التقنية المتميزة
+        التي صممت لتطوير مهاراتك في مجال التكنولوجيا.
+      </p>
+      <div class="container">
+        <div class="all-courses">
+          <div class="course">
+            <div class="category">فرونت اند</div>
+            <img src="images/courses/php1.jpg" alt="كورس PHP متقدم" />
+            <h3 class="course-title">برمجة PHP متقدمة</h3>
+            <p class="course-desc">
+              تعلم بناء تطبيقات الويب الديناميكية باستخدام PHP مع أحدث إصدارات
+              اللغة.
+            </p>
+            <div class="course-price">
+              <div>
+                <span>السعر الأصلي:</span>
+                <span>300$</span>
+              </div>
+              <span class="discount-price">199$</span>
+            </div>
+
+            <hr />
+            <div class="course-info">
+              <div>
+                <i class="fa-solid fa-users"></i>
+                <span>1850 طالب</span>
+              </div>
+              <div class="reviews">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <button class="course-details">تفاصيل الكورس</button>
+          </div>
+
+          <div class="course">
+            <div class="category">فرونت اند</div>
+            <img src="images/courses/python.jpg" alt="كورس بايثون" />
+            <h3 class="course-title">برمجة Python الشاملة</h3>
+            <p class="course-desc">
+              ابدأ رحلتك في البرمجة مع Python من الصفر وحتى المستوى المتقدم حتى
+              تتمكن.
+            </p>
+            <div class="course-price">
+              <div>
+                <span>السعر الأصلي:</span>
+                <span>280$</span>
+              </div>
+              <span class="discount-price">175$</span>
+            </div>
+
+            <hr />
+            <div class="course-info">
+              <div>
+                <i class="fa-solid fa-users"></i>
+                <span>2450 طالب</span>
+              </div>
+              <div class="reviews">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <button class="course-details">تفاصيل الكورس</button>
+          </div>
+
+          <div class="course">
+            <div class="category">فرونت اند</div>
+            <img src="images/courses/mysql.jpg" alt="كورس MySQL" />
+            <h3 class="course-title">قواعد بيانات MySQL</h3>
+            <p class="course-desc">
+              إدارة وتصميم قواعد البيانات العلائقية باستخدام MySQL بشكل مفصل
+              وبأحدث الطرق.
+            </p>
+            <div class="course-price">
+              <div>
+                <span>السعر الأصلي:</span>
+                <span>220$</span>
+              </div>
+              <span class="discount-price">149$</span>
+            </div>
+
+            <hr />
+            <div class="course-info">
+              <div>
+                <i class="fa-solid fa-users"></i>
+                <span>1350 طالب</span>
+              </div>
+              <div class="reviews">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <button class="course-details">تفاصيل الكورس</button>
+          </div>
+
+          <div class="course">
+            <div class="category">فرونت اند</div>
+            <img src="images/courses/photoshop.jpg" alt="كورس فوتوشوب" />
+            <h3 class="course-title">تصميم جرافيك باستخدام Photoshop</h3>
+            <p class="course-desc">
+              إتقان أدوات التصميم الجرافيكي الاحترافية في Adobe Photoshop.
+            </p>
+            <div class="course-price">
+              <div>
+                <span>السعر الأصلي:</span>
+                <span>260$</span>
+              </div>
+              <span class="discount-price">189$</span>
+            </div>
+
+            <hr />
+
+            <div class="course-info">
+              <div>
+                <i class="fa-solid fa-users"></i>
+                <span>3200 طالب</span>
+              </div>
+              <div class="reviews">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <button class="course-details">تفاصيل الكورس</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end   courses section  -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start portFolio section -->
+    <section class="portFolio" id="portFolio">
+      <div class="container">
+        <h2 class="section-title2">من أعمالنا الاحترافية</h2>
+        <p class="section-desc">
+          نقدم لكم مجموعة مختارة من أحدث مشاريعنا التي نفخر بها، والتي تعكس
+          خبرتنا الواسعة في مختلف المجالات التقنية.
+        </p>
+        <div class="portFolio-container">
+          <div class="box">
+            <img src="images/portfolio/ecommerce.jpg" alt="متجر إلكتروني" />
+            <div class="info">
+              <h3>متجر إلكتروني متكامل</h3>
+              <p>السعودية - الرياض | نظام دفع إلكتروني</p>
+              <button>رابط المشروع</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/portfolio/mobile-app.jpg" alt="تطبيق جوال" />
+            <div class="info">
+              <h3>تطبيق توصيل طعام</h3>
+              <p>الإمارات - دبي | تطبيق أندرويد وآيفون</p>
+              <button>رابط المشروع</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/portfolio/corporate-website.jpg" alt="موقع شركة" />
+            <div class="info">
+              <h3>موقع شركة سياحية</h3>
+              <p>عُمان - مسقط | نظام حجوزات متكامل</p>
+              <button>رابط المشروع</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/portfolio/branding.jpg" alt="هوية بصرية" />
+            <div class="info">
+              <h3>هوية بصرية لمطعم</h3>
+              <p>الكويت - مدينة الكويت | شعار ومواد دعائية</p>
+              <button>رابط المشروع</button>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/portfolio/erp-system.jpg" alt="نظام إدارة" />
+            <div class="info">
+              <h3>نظام ERP مخصص</h3>
+              <p>قطر - الدوحة | حلول إدارة المؤسسات</p>
+              <button>رابط المشروع</button>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="images/portfolio/educational-platform.jpg"
+              alt="منصة تعليمية"
+            />
+            <div class="info">
+              <h3>منصة تعليم إلكتروني</h3>
+              <p>البحرين - المنامة | نظام تعليم عن بعد</p>
+              <button>رابط المشروع</button>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="images/portfolio/iot-solution.jpg"
+              alt="حلول إنترنت الأشياء"
+            />
+            <div class="info">
+              <h3>نظام ذكي للمنازل</h3>
+              <p>السعودية - جدة | حلول IoT متكاملة</p>
+              <button>رابط المشروع</button>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="images/portfolio/game-development.jpg"
+              alt="تطوير ألعاب"
+            />
+            <div class="info">
+              <h3>لعبة تعليمية للأطفال</h3>
+              <p>مصر - القاهرة | تطوير ألعاب تعليمية</p>
+              <button>رابط المشروع</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end portFolio section -->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start team section -->
+    <section class="team">
+      <div class="container">
+        <h2 class="section-title2">فريقنا المبدع</h2>
+        <p class="section-desc">
+          تعرف على الكفاءات والخبرات التي تشكل فريق عملنا المتميز، والذين يعملون
+          باجتهاد لتقديم أفضل الحلول التقنية.
+        </p>
+        <div class="all-team">
+          <div class="box-person">
+            <div class="img-soical">
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <img src="images/team/developer1.jpg" alt="مطور ويب" />
+            </div>
+            <div class="team-info">
+              <h3>أحمد السليمان</h3>
+              <p>خبير تطوير الويب</p>
+            </div>
+          </div>
+          <div class="box-person">
+            <div class="img-soical">
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <img src="images/team/designer1.jpg" alt="مصمم جرافيك" />
+            </div>
+            <div class="team-info">
+              <h3>سارة النجدي</h3>
+              <p>مصممة جرافيك محترفة</p>
+            </div>
+          </div>
+          <div class="box-person">
+            <div class="img-soical">
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <img src="images/team/mobile-dev.jpg" alt="مطور تطبيقات" />
+            </div>
+            <div class="team-info">
+              <h3>خالد الفهد</h3>
+              <p>مطور تطبيقات جوال</p>
+            </div>
+          </div>
+          <div class="box-person">
+            <div class="img-soical">
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <img src="images/team/marketing.jpg" alt="خبير تسويق" />
+            </div>
+            <div class="team-info">
+              <h3>لمى العتيبي</h3>
+              <p>خبيرة تسويق رقمي</p>
+            </div>
+          </div>
+          <div class="box-person">
+            <div class="img-soical">
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <img src="images/team/backend.jpg" alt="مطور خوادم" />
+            </div>
+            <div class="team-info">
+              <h3>ياسر الحربي</h3>
+              <p>مطور أنظمة خلفية</p>
+            </div>
+          </div>
+          <div class="box-person">
+            <div class="img-soical">
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <img src="images/team/ui-ux.jpg" alt="مصمم واجهات" />
+            </div>
+            <div class="team-info">
+              <h3>نورة القحطاني</h3>
+              <p>مصممة واجهات مستخدم</p>
+            </div>
+          </div>
+          <div class="box-person">
+            <div class="img-soical">
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <img src="images/team/data-scientist.jpg" alt="خبير بيانات" />
+            </div>
+            <div class="team-info">
+              <h3>عبدالله الرشيد</h3>
+              <p>خبير علم البيانات</p>
+            </div>
+          </div>
+          <div class="box-person">
+            <div class="img-soical">
+              <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <img src="images/team/project-manager.jpg" alt="مدير مشاريع" />
+            </div>
+            <div class="team-info">
+              <h3>فاطمة الزهراني</h3>
+              <p>مديرة مشاريع تقنية</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end team section-->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start skills section-->
+    <section class="skills">
+      <h2 class="section-title2">مهاراتي الشخصية</h2>
+      <p class="section-desc">
+        تعرف على الكفاءات والخبرات التي تشكل فريق عملنا المتميز، والذين يعملون
+        باجتهاد لتقديم أفضل الحلول التقنية.
+      </p>
+      <div class="container skills-container">
+        <div class="skills-info">
+          <div class="skill">
+            <div class="counter">
+              <p>HTML/CSS</p>
+              <!-- /اسم المهارة  -->
+              <p>95%</p>
+              <!-- نسبة معرفتي بالمهارة -->
+            </div>
+            <div class="progress">
+              <div class="prog">
+                <span style="width: 95%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="counter">
+              <p>JavaScript</p>
+              <!-- /اسم المهارة  -->
+              <p>85%</p>
+              <!-- نسبة معرفتي بالمهارة -->
+            </div>
+            <div class="progress">
+              <div class="prog">
+                <span style="width: 85%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="counter">
+              <p>React</p>
+              <!-- /اسم المهارة  -->
+              <p>80%</p>
+              <!-- نسبة معرفتي بالمهارة -->
+            </div>
+            <div class="progress">
+              <div class="prog">
+                <span style="width: 80%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="counter">
+              <p>Node.js</p>
+              <!-- /اسم المهارة  -->
+              <p>75%</p>
+              <!-- نسبة معرفتي بالمهارة -->
+            </div>
+            <div class="progress">
+              <div class="prog">
+                <span style="width: 75%"></span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="counter">
+              <p>UI/UX Design</p>
+              <!-- /اسم المهارة  -->
+              <p>70%</p>
+              <!-- نسبة معرفتي بالمهارة -->
+            </div>
+            <div class="progress">
+              <div class="prog">
+                <span style="width: 70%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-img">
+          <img src="images/skills.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- end skills section-->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start pricing section -->
+    <section class="pricing-section">
+      <h2 class="section-title2">باقات التطوير التقني</h2>
+      <p class="section-desc">
+        اختر الباقة البرمجية التي تناسب مشروعك من بين حلولنا الشاملة لتطوير
+        وتنفيذ أفكارك التقنية.
+      </p>
+      <div class="container">
+        <div class="plan">
+          <h3 class="plan-title">باقة المبتدئين</h3>
+          <img src="images/svg/angular-icon-1.svg" alt="أيقونة Angular" />
+          <div class="price">
+            <p>99$</p>
+            <p>سنوياً</p>
+          </div>
+          <ul>
+            <li>تطبيق ويب بسيط Angular</li>
+            <li>5 صفحات ويب رئيسية</li>
+            <li>تصميم متجاوب أساسي</li>
+            <li>دعم فني عبر البريد الإلكتروني</li>
+            <li>تقارير أداء ربع سنوية</li>
+            <li>استضافة لموقع واحد</li>
+            <li>نطاق فرعي مجاني</li>
+          </ul>
+          <button class="plan-btn">ابدأ الآن</button>
+        </div>
+
+        <div class="plan popular-plan">
+          <h3 class="plan-title">باقة البيانات</h3>
+          <img src="images/svg/python-5 (1).svg" alt="أيقونة Python" />
+          <div class="price">
+            <p>199$</p>
+            <p>سنوياً</p>
+          </div>
+          <ul>
+            <li>3 تطبيقات بيانات Python</li>
+            <li>15 وظيفة برمجية مخصصة</li>
+            <li>تحديثات أسبوعية للنماذج</li>
+            <li>دعم فني عبر الهاتف والبريد</li>
+            <li>تقارير أداء شهرية</li>
+            <li>استضافة لـ 3 قواعد بيانات</li>
+            <li>واجهة تحكم مخصصة</li>
+          </ul>
+          <button class="plan-btn">اختر الباقة</button>
+        </div>
+
+        <div class="plan">
+          <h3 class="plan-title">باقة الجوال</h3>
+          <img src="images/svg/flutter.svg" alt="أيقونة Flutter" />
+          <div class="price">
+            <p>299$</p>
+            <p>سنوياً</p>
+          </div>
+          <ul>
+            <li>5 تطبيقات جوال عبر Flutter</li>
+            <li>مكونات غير محدودة</li>
+            <li>تحديثات يومية للتطبيق</li>
+            <li>دعم فني على مدار الساعة</li>
+            <li>تقارير أداء أسبوعية</li>
+            <li>نشر على متجر التطبيقات</li>
+            <li>شهادة أمان رقمي</li>
+          </ul>
+          <button class="plan-btn">تطوير كامل</button>
+        </div>
+
+        <div class="plan">
+          <h3 class="plan-title">باقة المؤسسات</h3>
+          <img src="images/svg/java-14.svg" alt="أيقونة Java" />
+          <div class="price">
+            <p>اتصل بنا</p>
+            <p>حسب المتطلبات</p>
+          </div>
+          <ul>
+            <li>حلول Java Enterprise مخصصة</li>
+            <li>أنظمة غير محدودة التعقيد</li>
+            <li>تحديثات فورية عند الطلب</li>
+            <li>مدير مشروع مخصص</li>
+            <li>تقارير أداء مفصلة</li>
+            <li>حلول سيرفرات متقدمة</li>
+            <li>أنظمة أمنية متكاملة</li>
+          </ul>
+          <button class="plan-btn">طلب عرض سعر</button>
+        </div>
+      </div>
+    </section>
+    <!-- end pricing section-->
+    <!-- ------------------------------------------------------------------- -->
+    <!--  start  testimonials section -->
+    <section class="testimonials">
+      <h2 class="section-title2">آراء عملائنا</h2>
+      <p class="section-desc">
+        نفتخر بثقة عملائنا الكرام، وهذه بعض الشهادات والتقييمات من عملائنا
+        السعداء بخدماتنا.
+      </p>
+
+      <div class="container">
+        <!-- testimonial 1 -->
+        <div class="testimonial">
+          <img src="images/testimonials/client1.jpg" alt="صورة أحمد السعدي" />
+          <h3>أحمد السعدي</h3>
+          <p>مدير مشاريع تقنية</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-alt"></i>
+          </div>
+          <p class="review">
+            "فريق عمل محترف جداً، قاموا بتطوير نظام إدارة المحتوى لشركتنا في
+            الوقت المحدد وبجودة عالية."
+          </p>
+        </div>
+
+        <!-- testimonial 2 -->
+        <div class="testimonial">
+          <img src="images/testimonials/client2.jpg" alt="صورة سارة النجدي" />
+          <h3>سارة النجدي</h3>
+          <p>رئيسة قسم التسويق</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review">
+            "التطبيق الذي طوروه لنا ساهم في زيادة مبيعاتنا بنسبة 40%، الدعم
+            الفني سريع ومحترف."
+          </p>
+        </div>
+
+        <!-- testimonial 3 -->
+        <div class="testimonial">
+          <img src="images/testimonials/client3.jpg" alt="صورة محمد القحطاني" />
+          <h3>محمد القحطاني</h3>
+          <p>مالك متجر إلكتروني</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="review">
+            "حولوا فكرتي إلى واقع في وقت قياسي، التصميم رائع وسهل الاستخدام."
+          </p>
+        </div>
+
+        <!-- testimonial 4 -->
+        <div class="testimonial">
+          <img src="images/testimonials/client4.jpg" alt="صورة نوره الفهد" />
+          <h3>نوره الفهد</h3>
+          <p>مديرة مدرسة خاصة</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="review">
+            "نظام إدارة المدارس الذي صمموه لنا غيّر طريقة عملنا بالكامل، وفر وقت
+            الموظفين بنسبة 60%."
+          </p>
+        </div>
+
+        <!-- testimonial 5 -->
+        <div class="testimonial">
+          <img src="images/testimonials/testi1.png" alt="صورة فيصل الرشيد" />
+          <h3>فيصل الرشيد</h3>
+          <p>رئيس شركة ناشئة</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-alt"></i>
+          </div>
+          <p class="review">
+            "الدعم المستمر بعد التسليم كان مميزاً، ساعدونا في حل كل المشاكل
+            التقنية بسرعة."
+          </p>
+        </div>
+
+        <!-- testimonial 6 -->
+        <div class="testimonial">
+          <img src="images/testimonials/client6.jpg" alt="صورة لمى الحربي" />
+          <h3>لمى الحربي</h3>
+          <p>مؤسسة تطبيق تعليمي</p>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <p class="review">
+            "التطبيق التعليمي الذي صمموه تجاوز توقعاتنا، المستخدمون يعبرون عن
+            سعادتهم بواجهة التطبيق."
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end testimonials section-->
+    <!-- ------------------------------------------------------------------- -->
+    <!--start footer -->
+    <footer>
+      <div class="container">
+        <div class="sec">
+          <h2>نبذة عن الشركة</h2>
+          <p>
+            شركة تكنو تك التقنية متخصصة في تقديم حلول تقنية متكاملة تشمل تصميم
+            المواقع، تطوير التطبيقات، وإدارة السيرفرات. نهدف إلى تمكين الشركات
+            والأفراد بأحدث الأدوات التقنية.
+          </p>
+        </div>
+        <div class="sec">
+          <h2>أهم الخدمات</h2>
+          <ul>
+            <li><a href="#">تصميم وبرمجة مواقع الويب</a></li>
+            <li><a href="#">تصميم وبرمجة تطبيقات الجوال</a></li>
+            <li><a href="#">إدارة وبرمجة السيرفرات</a></li>
+            <li><a href="#">التصميم الجرافيكي والمونتاج</a></li>
+            <li><a href="#">التسويق الإلكتروني</a></li>
+          </ul>
+        </div>
+        <div class="sec">
+          <h2>أهم الكورسات</h2>
+          <ul>
+            <li><a href="#">كورسات البرمجة</a></li>
+            <li><a href="#">كورسات التسويق الإلكتروني</a></li>
+            <li><a href="#">كورسات التصميم الجرافيكي</a></li>
+            <li><a href="#">كورسات تطبيقات غوغل السحابية</a></li>
+            <li><a href="#">كورسات برمجة الأردوينو</a></li>
+          </ul>
+        </div>
+        <div class="sec">
+          <h2>النشرة البريدية</h2>
+          <div class="letter">
+            <form action="#">
+              <input type="text" placeholder="الرجاء إدخال الاسم" />
+              <input
+                type="email"
+                placeholder="الرجاء إدخال البريد الإلكتروني"
+              />
+              <input type="submit" value="إرسال البيانات" />
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-hr" />
+      <div class="copyRight">
+        <p>
+          <i class="fa-solid fa-copyright"></i>&nbsp;كافة الحقوق محفوظة لشركة
+          تكنو تك التقنية.
+        </p>
+      </div>
+    </footer>
+    <!-- end footer-->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- ربط الواتس اب مع الموقع -->
+    <a href="https://wa.me/+963985961459" class="btn-whatsapp" target="_blank">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <!-- ------------------------------------------------------------------- -->
+    <!-- live chat  للتواصل بين موقع الويب والمنصة  -->
+    <!--Start of Tawk.to Script-->
+    <script src="js/chat.js"></script>
+    <!-- <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/682b5658714ec01918f30eab/1irkkiipi";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+    <!-- ------------------------------------------------------------------- -->
+    <!-- start mobile menu toggle -->
+     <script src="js/script.js"></script>
+    <!-- end mobile menu toggle -->
+  </body>
+</html>

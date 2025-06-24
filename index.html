@@ -1,0 +1,2669 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Store | Home</title>
+    <link rel="icon" href="images/favicon.png" />
+    <!-- slidder products using swipperjs library -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="top-header d-flex align-items-center py-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <a href="#">
+                <img width="150" src="images/logo.png" alt="logo" />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <input
+                type="text"
+                placeholder="اكتب اسم المنتج للبحث عنه"
+                class="form-control"
+              />
+            </div>
+            <div
+              class="col-md-4 left-header d-flex justify-content-end align-items-center d-none d-lg-flex"
+            >
+              <a
+                data-bs-toggle="offcanvas"
+                href="#cart"
+                role="button"
+                aria-controls="cart"
+              >
+                <span>السلة</span>
+                <i class="fa-solid fa-cart-plus"></i>
+              </a>
+              <a
+                data-bs-toggle="offcanvas"
+                href="#login"
+                role="button"
+                aria-controls="login"
+              >
+                <span>الدخول</span>
+                <i class="fa-solid fa-user"></i>
+              </a>
+              <a href="#">
+                <span>المفضلة</span>
+                <i class="fa-solid fa-heart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <button
+              class="navbar-toggler menu-icon"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div>
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#cart"
+                role="button"
+                aria-controls="cart"
+                class="navbar-toggler menu-icon"
+              >
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+
+              <button
+                data-bs-toggle="offcanvas"
+                data-bs-target="#login"
+                role="button"
+                aria-controls="login"
+                class="navbar-toggler menu-icon"
+              >
+                <i class="fa-solid fa-user"></i>
+              </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >الرئيسية</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">الأثاث</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">وحدات تخزين</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">ديكورات منزلية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أثاث مكتبي</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">الإضاءة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أقمشة و مفروشات</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">المطبخ والحمام</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">الأجهزة المنزلية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أثاث خارجى</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">أدوات رياضية</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="category.html">إلكترونيات</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start slider -->
+    <section>
+      <div class="slider mt-2">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-8">
+              <div
+                id="main-slider"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="0"
+                    class="active bg-warning"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="1"
+                    class="bg-warning"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="4"
+                    aria-label="Slide 5"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="5"
+                    aria-label="Slide 6"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="6"
+                    aria-label="Slide 7"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="7"
+                    aria-label="Slide 8"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="8"
+                    aria-label="Slide 9"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="9"
+                    aria-label="Slide 10"
+                  ></button>
+                  <button
+                    type="button"
+                    class="bg-warning"
+                    data-bs-target="#main-slider"
+                    data-bs-slide-to="10"
+                    aria-label="Slide 9"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="images/slider/slider1.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item active">
+                    <img
+                      src="images/slider/slider12.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider5.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider4.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider6.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider7.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider8.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider9.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider10.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider11.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="images/slider/slider2.png"
+                      class="d-block w-100"
+                      height="310px"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#main-slider"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon bg-warning text-white rounded-5"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#main-slider"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon bg-warning text-white rounded-5"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-2 mt-md-0">
+              <img
+                width="100%"
+                src="images/slider/slider13.png"
+                alt=""
+                height="151px"
+              />
+              <img
+                class="mt-2"
+                width="100%"
+                height="151px"
+                src="images/slider/slider3.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start categories -->
+    <section class="categories bg-white">
+      <h3 class="text-center section-title">كافة التصنيفات</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category13.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">أثاث مكتبي</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category1.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">صمم بيتك</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category2.gif" alt="" />
+              </div>
+              <h5 class="text-center mt-2">الأكثر مبيعا</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category3.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">إلكترونيات</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category4.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">أقمشة ومفروشات</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category5.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">الأثاث</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category6.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">الأجهزة المنزلية</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category7.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">المطبخ والحمام</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category8.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">أدوات رياضية</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category9.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">وحدات تخزين</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category10.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">الإضاءة</h5>
+            </a>
+          </div>
+          <div class="col-6 col-md-2 my-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden bg-light">
+                <img src="images/categories/category11.png" alt="" />
+              </div>
+              <h5 class="text-center mt-2">أثاث خارجى</h5>
+            </a>
+          </div>
+          <!-- <div class="col-6 col-md-2 mt-2">
+            <a href="category.html">
+              <div class="card cat overflow-hidden">
+                <img src="images/categories/category12.png" alt="" />
+              </div>
+              <h5 class="text-center mt-1">الحواسيب</h5>
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- end categories -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start products -->
+    <section class="products ">
+      <h3 class="text-center section-title">اكتشف الجديد </h3>
+      <div class="container-fluid">
+        <div class="d-flex justify-content-sm-center justify-content-start mb-3">
+          <div class="btn-group filter-button-group  " style="max-width: 100%;">
+            <button 
+              data-filter="*" 
+              type="button" 
+              class="btn btn-outline-warning active px-3"
+            >
+              الكل
+            </button>
+            <button 
+              data-filter=".Outdoors" 
+              type="button" 
+              class="btn btn-outline-warning px-3"
+            >
+              أثاث خارجي
+            </button>
+            <button 
+              data-filter=".light" 
+              type="button" 
+              class="btn btn-outline-warning px-3"
+            >
+              الإضاءة
+            </button>
+            <button 
+              data-filter=".kitchen" 
+              type="button" 
+              class="btn btn-outline-warning px-3"
+            >
+              المطبخ
+            </button>
+          </div>
+        </div>
+        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6 all-products my-3 gx-4 gy-2">
+          <div class="col product mb-3 light">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/freepik__expand__88171.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>غرفة نوم</h3>
+                <p>غرفة نوم 6 قطع - بتصميم عصري ولون رمادي أنيق</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 4000$</span>
+                  <span>5000$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 Outdoors">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/Outdoors1_.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>أثاث خارجي</h3>
+                <p>طقم أثاث خارجي حديد 5 قطع - رمادي</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 kitchen">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/kitchen1.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>مطبخ مودرن</h3>
+                <p>مطبخ مودرن خشب ام دي اف - رمادى فاتح</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 2500$</span>
+                  <span>4000$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 light">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/light2.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>مصباح مكتب</h3>
+                <p>مصباح مكتب فخار ابيض و بني - 23×16×43 سم</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 Outdoors">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/Outdoors2.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>طقم أثاث</h3>
+                <p>طقم أثاث خارجي فولاذ و جاكار 6 قطع - رمادي وأسود</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 2000$</span>
+                  <span>4000$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 kitchen">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/kitchen2.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>مطبخ موردن</h3>
+                <p>ًمطبخ مودرن خشب ام دى إف - 280 سم</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 1850$</span>
+                  <span>3000$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 light">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/light3.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>مصباح سقف</h3>
+                <p>مصباح سقف معدن كريتال ذهبي - 75×60 سم + ريموت هدية</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 Outdoors">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/Outdoors3.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>أثاث خارجي</h3>
+                <p>طقم خارجي حديد و قماش دك 5 قطع - رمادي واسود</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 2000$</span>
+                  <span>4000$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 kitchen">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/kitchen3jpg.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>ًمطبخ مودرن</h3>
+                <p>ًمطبخ مودرن خشب ام دي اف - 120 سم</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 2000$</span>
+                  <span>3000$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 light">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/light4_.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>نجفة</h3>
+                <p>نجفة 115×76 سم - ذهبي - YLIG.YL675</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 250$</span>
+                  <span>400$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 Outdoors">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/Outdoors4.jpg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>أثاث خارجي</h3>
+                <p>
+                  طقم أثاث خارجي حديد و قماش مقاوم للماء 3 قطع - متعدد الالوان
+                </p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 800$</span>
+                  <span>1000$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col product mb-3 kitchen">
+            <div class="card overflow-hidden bg-light">
+              <div
+                class="quick-icons d-flex flex-column justify-content-around align-items-center"
+              >
+                <a href="#quick-product" data-bs-toggle="modal"
+                  ><i class="fa-solid fa-magnifying-glass"></i
+                ></a>
+                <a href=""><i class="fa-regular fa-heart"></i></a>
+                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+              </div>
+              <img src="images/product/kitchen4.jpeg"   height="230" alt="product" />
+              <div class="product-info">
+                <h3>مطبخ مودرن</h3>
+                <p>مطبخ مودرن خشب ام دى إف - 270 سمً</p>
+                <div class="stars mb-2 text-warning">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2">
+                  <span>السعر 3000$</span>
+                  <span>4500$</span>
+                </div>
+                <button
+                  onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                  class="btn btn-danger w-100"
+                >
+                  إضافة إلى السلة
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end products -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start slider of products swipper -->
+    <section class="news-products">
+      <div class="container-fluid">
+        <h3 class="text-center section-title">أحدث المنتجات</h3>
+        <!-- Slider main container -->
+        <div class="swiper mt-5">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper ">
+            <!-- Slides -->
+            <div class="col product mb-3 phones swiper-slide">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/product/yl511_env_copy__copy_.jpg"
+                  height="230"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>الإضاءة</h3>
+                  <p>مصباح أرض خشب زان و قماش مدعم ببلاستيك أبيض و بيج</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones swiper-slide">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/product/tao.a13_1.jpg"
+                  height="230"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>ترابيزة</h3>
+                  <p>
+                    ترابيزة قهوة خشب ام دي اف اسباني بني و أبيض - 50×50×100 سم
+                  </p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones swiper-slide">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/product/SNOZ.136.jpg"
+                  height="230"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>مرتبة</h3>
+                  <p>مرتبة تطرية طيبه مقاس أبيض - 8×160×200 سم</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 3000$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones swiper-slide">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/product/5_31_132.jpg"
+                  height="230"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>طقم ملاية</h3>
+                  <p>طقم ملاية قطعتين قطن مخلوط - متعدد الألوان</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>3500$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones swiper-slide">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img src="images/product/996.jpg" height="230" alt="product" />
+                <div class="product-info">
+                  <h3>كنبة</h3>
+                  <p>كنبة ركنة مودرن خشب زان و كتان - رمادي</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 4000$</span>
+                    <span>5000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones swiper-slide">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/product/joufurh8626_2.jpg"
+                  height="230"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>كنبة</h3>
+                  <p>كنبة ركنة خشب طبيعي و قماش كتان - رمادي</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2000$</span>
+                    <span>3000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones swiper-slide">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/product/16_6_5.jpg"
+                  height="230"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>ديكورات منزلية</h3>
+                  <p>طقم تابلوهات 6 قطع خشب ام دى اف أسبانى - ابيض واسود</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>4000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col product mb-3 phones swiper-slide">
+              <div class="card overflow-hidden">
+                <div
+                  class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                >
+                  <a href="#quick-product" data-bs-toggle="modal"
+                    ><i class="fa-solid fa-magnifying-glass"></i
+                  ></a>
+                  <a href=""><i class="fa-regular fa-heart"></i></a>
+                  <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                </div>
+                <img
+                  src="images/product/kin.off.6.jpg"
+                  height="230"
+                  alt="product"
+                />
+                <div class="product-info">
+                  <h3>أثاث مكتبي</h3>
+                  <p>مكتب ام دى اف أبيض - 120×74×60 سم</p>
+                  <div class="stars mb-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="price mb-2">
+                    <span>السعر 2500$</span>
+                    <span>3000$</span>
+                  </div>
+                  <button
+                    onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                    class="btn btn-danger w-100"
+                  >
+                    إضافة إلى السلة
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev text-warning"></div>
+          <div class="swiper-button-next text-warning"></div>
+
+          <!-- If we need scrollbar -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+      </div>
+    </section>
+    <!-- end slider of products -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start tabs products -->
+    <section class="pt-5">
+      <div class="container-fluid">
+        <ul class="nav nav-tabs border-warning-subtle">
+          <li class="nav-item">
+            <a
+              class="nav-link active bg-warning-subtle"
+              aria-current="page"
+              data-bs-toggle="tab"
+              href="#newProduct"
+              >منتجات حديثة</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#tv"
+              >ترابيزة تليفزيون</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#btd">أواني طعام</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade mt-5 show active" id="newProduct">
+            <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6">
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/SFTL.24.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>غرفة طعام</h3>
+                    <p>طقم ترابيزة بار ستيل و ام دى اف أسود و بني - 3 قطع</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 800$</span>
+                      <span>1000$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/iro.iron.0042.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>غرفة طعام</h3>
+                    <p>سفره ستيل وخشب طبيعي 5 قطع - أسود وبيج</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 1000$</span>
+                      <span>1200$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 acc">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/116_25.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>غرفة طعام</h3>
+                    <p>سفره ستيل و ام دي اف 5 قطع - أسود وبيج</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 1000$</span>
+                      <span>1500$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/dt113.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>غرفة طعام</h3>
+                    <p>غرفة طعام حديد ورخام 5 قطع - ذهبي وابيض</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 2500$</span>
+                      <span>4000$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/dt116.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>غرفة طعام</h3>
+                    <p>غرفة طعام حديد ورخام 5 قطع - ذهبي وابيض</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 1100$</span>
+                      <span>2200$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 acc">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/dt114_1.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>غرفة طعام</h3>
+                    <p>غرفة طعام حديد وام دي اف 7 قطع - اسود</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 2500$</span>
+                      <span>4000$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ------------------------------------------------------------ -->
+          <div class="tab-pane fade mt-5" id="tv">
+            <div class="row row-cols-2 row-cols-md-6">
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/tv10.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>ترابيزة تلفاز</h3>
+                    <p>وحدة تليفزيون ام دى اف أسود و بيج - 180×34×44 سم</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 900$</span>
+                      <span>1100$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/dhfcon4.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>ترابيزة تلفاز</h3>
+                    <p>طقم ترابيزات تليفزيون ام دى اف بني - 180×30×55 سم</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 900$</span>
+                      <span>1200$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 acc">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/diamd6330-env.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>ترابيزة تلفاز</h3>
+                    <p>وحدة تلفزيون ام دي اف بني و أسود - 55×200×30 سم</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 1000$</span>
+                      <span>1500$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/BETLE15-1.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>ترابيزة تلفاز</h3>
+                    <p>وحدة تلفزيون ام دى اف بني - 50×30×150×33 سم</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 900$</span>
+                      <span>1200$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/dhfcon1_.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>ترابيزة تلفاز</h3>
+                    <p>
+                      وحدة تلفزيون و ترابيزة قهوة خشب ام دي اف أسود وبني -
+                      قطعتين
+                    </p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 1000$</span>
+                      <span>2000$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 acc">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/p3_5.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>ترابيزة تلفاز</h3>
+                    <p>طقم ترابيزات تليفزيون ام دى اف بني - 180×30×55 سم</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 800$</span>
+                      <span>1000$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade mt-5" id="btd">
+            <div class="row row-cols-2 row-cols-md-6">
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/btd.430_1.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>طقم عشاء</h3>
+                    <p>طقم عشاء 22×5 سم 6 قطع - كحلي فاتح</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 250$</span>
+                      <span>400$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/btd.440_1.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>وعاء شوربة</h3>
+                    <p>وعاء 14×6 سم 6 قطع - كحلي اللون وأنيق</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 250$</span>
+                      <span>400$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 acc">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img
+                    src="images/product/btd6222045609565-1.jpg"
+                    alt="product"
+                  />
+                  <div class="product-info">
+                    <h3>برايت ديزاينز</h3>
+                    <p>
+                      برايت ديزاينز مجموعة أطباق دائرية عميقة 22 سم أوف وايت - 6
+                      قطعً
+                    </p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 250$</span>
+                      <span>400$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/btd.74-w_1.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>وعاء شوربة</h3>
+                    <p>وعاء شوربة 14×6 سم - 6 قطع من BTD.74 - أسود</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 250$</span>
+                      <span>400$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 phones">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/kt100.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>طقم عشاء أكروبال</h3>
+                    <p>طقم عشاء أكروبال 18 قطعة - أبيض</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 250$</span>
+                      <span>400$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="col product mb-3 acc">
+                <div class="card overflow-hidden">
+                  <div
+                    class="quick-icons d-flex flex-column justify-content-around align-items-center"
+                  >
+                    <a href="#quick-product" data-bs-toggle="modal"
+                      ><i class="fa-solid fa-magnifying-glass"></i
+                    ></a>
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                  </div>
+                  <img src="images/product/br.ds.49.jpg" alt="product" />
+                  <div class="product-info">
+                    <h3>طبق ميلامين</h3>
+                    <p>طبق 36×15 سم 2 قطع - متعدد الالوان - BR.DS.49</p>
+                    <div class="stars mb-2 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="price mb-2">
+                      <span>السعر 250$</span>
+                      <span>400$</span>
+                    </div>
+                    <button
+                      onclick="alert('تم إضافة المنتج إلى السلة بنجاح')"
+                      class="btn btn-danger w-100"
+                    >
+                      إضافة إلى السلة
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end tabs products -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start ADS section  -->
+    <section class="ads pt-5 pb-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 gap-3 flex-md-nowrap m-1">
+          <div
+            class="col inner-ad position-relative overflow-hidden d-flex justify-content-center p-0 rounded-3"
+          >
+            <div
+              class="overlay position-absolute w-100 h-100 bg-opacity-50 bg-black z-2"
+            ></div>
+            <img
+              class="img-fluid"
+              src="images/ads/BedsAR-DT_copy_3_1.jpg"
+              alt=""
+            />
+            <div class="ad-info position-absolute top-50 text-center z-3">
+              <h3 class="text-white">غرفة نومك تجمع بين الراحة والأناقة</h3>
+              <p class="text-white">
+                لا تفوت الفرصة لاقتناء أفخم الماركات العالمية
+              </p>
+              <button class="btn btn-danger">تسوق الآن</button>
+            </div>
+          </div>
+          <div
+            class="col inner-ad position-relative overflow-hidden d-flex justify-content-center p-0 rounded-3"
+          >
+            <div
+              class="overlay position-absolute w-100 h-100 bg-opacity-50 bg-black z-2"
+            ></div>
+            <img
+              class="img-fluid"
+              src="images/ads/TablesAR-DT_copy_2_1 (1).jpg"
+              alt=""
+            />
+            <div class="ad-info position-absolute top-50 text-center z-3">
+              <h3 class="text-white">غرفة المعيشة المثالية تبدأ من هنا</h3>
+              <p class="text-white">
+                لا تفوت الفرصة لاقتناء أفخم الماركات العالمية
+              </p>
+              <button class="btn btn-danger">تسوق الآن</button>
+            </div>
+          </div>
+          <div
+            class="col inner-ad position-relative overflow-hidden d-flex justify-content-center p-0 rounded-3"
+          >
+            <div
+              class="overlay position-absolute w-100 h-100 bg-opacity-50 bg-black z-2"
+            ></div>
+            <img
+              class="img-fluid"
+              src="images/ads/Dining_tablesAR-DT_copy_2_1.jpg"
+              alt=""
+            />
+            <div class="ad-info position-absolute top-50 text-center z-3">
+              <h3 class="text-white">حول كل وجبة للحظة مميزة!</h3>
+              <p class="text-white">
+                لا تفوت الفرصة لاقتناء أفخم الماركات العالمية
+              </p>
+              <button class="btn btn-danger">تسوق الآن</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end ads section-->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start week end products -->
+    <section class="week-products pt-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col">
+            <h4 class="mini-title">خصومات أسبوعية (فرش طاولة)</h4>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/fkh0014-en.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>مفرش 38×120 سم - بيج</p>
+                    <p>250$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/freepik__expand__68785.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>مفرش طاولة كتان - بيج</p>
+                    <p>150$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/freepik__expand__68786.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>مفرش طاولة كتان بيج 50×150سم</p>
+                    <p>150$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <h4 class="mini-title">خصومات أسبوعية (ترابيزة تلفاز)</h4>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/diamd52924.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>طقم وحدة تلفزيون وترابيزة قهوة</p>
+                    <p>1000$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/dhfcon4.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>طقم وحدة تلفزيون وترابيزة قهوة</p>
+                    <p>900$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/diamd6330-env.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>طقم وحدة تلفزيون وترابيزة قهوة</p>
+                    <p>1100$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <h4 class="mini-title">خصومات أسبوعية (إلكترونيات)</h4>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/handtech1862.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>كاميرا مراقبة توريت بتركيز 2.8 ملم</p>
+                    <p>1000$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/fg091679.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>مكبر صوت لاسلكي سوني</p>
+                    <p>500$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/sssele73027-env.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>قفل ذكي للابواب الزجاجية</p>
+                    <p>2000$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <h4 class="mini-title">خصومات أسبوعية (أدوات رياضية)</h4>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/fitne.16_1.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>مشايه رياضيه وزن 120 كيلو</p>
+                    <p>2500$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/grand21_1.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>مالتي جيم 3 محطه جراند سبورت</p>
+                    <p>2500$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="mb-2">
+              <!-- تفاصيل المنتج -->
+              <a href="#">
+                <div class="product-sm p-2 d-flex align-items-center rounded">
+                  <img
+                    src="images/product/grand15.jpg"
+                    class="img-fluid w-25 rounded"
+                    alt=""
+                  />
+                  <div class="product-info">
+                    <p>أوربتراك جراند سبورت - أسود</p>
+                    <p>1500$</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end week end products -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- start footer -->
+    <footer class="text-white pt-5 mt-5 mb-0 position-relative">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col f1 mb-3">
+            <img class="w-75" src="images/logo-white.png" alt="logo" />
+            <p class="mt-3 mb-3">
+              متجرنا يهتم بالجودة والخامة النظيفة ونسعى إلى توفير كل جديد وكل ما
+              يرضي عملائنا
+            </p>
+            <ul class="navbar-nav">
+              <li>
+                <i class="fa-solid fa-location-dot"></i
+                ><span>&nbsp;&nbsp;تركيا - اسطنبول</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i><span>&nbsp;05519665883</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i
+                ><span>&nbsp; info@claudsoft.com</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col f2 mb-3">
+            <h3>أهم الروابط</h3>
+            <ul class="navbar-nav">
+              <li><a href="#">الرئيسية</a></li>
+              <li><a href="#">من نحن</a></li>
+              <li><a href="#">اتصل بنا</a></li>
+              <li><a href="#">الضمان</a></li>
+              <li><a href="#">سياسة الأسترجاع</a></li>
+              <li><a href="#">سياسة الخصوصية</a></li>
+            </ul>
+          </div>
+          <div class="col f3 mb-3">
+            <h3>التصنيفات</h3>
+            <ul class="navbar-nav">
+              <li><a href="#">الأجهزة المنزلية</a></li>
+              <li><a href="#">المطبخ والحمام</a></li>
+              <li><a href="#">إلكترونيات</a></li>
+              <li><a href="#">أثاث خارجى</a></li>
+              <li><a href="#">الإضاءة</a></li>
+              <li><a href="#">ديكورات منزلية</a></li>
+            </ul>
+          </div>
+          <div class="col f4 mb-3">
+            <h3>النشرة البريدية</h3>
+            <p>
+              متجرنا يهتم بالجودة والخامة النظيفة ونسعى إلى توفير كل جديد وكل ما
+              يرضي عملائنا
+            </p>
+            <form action="#">
+              <input
+                type="text"
+                placeholder="الرجاء إدخال البريد"
+                class="form-control mb-3"
+              />
+              <button class="btn btn-danger w-100">اشتراك</button>
+            </form>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 mt-3">
+          <div class="col d-flex justify-content-start align-items-center">
+            <img src="images/payments.png" alt="payments" />
+          </div>
+          <div class="col d-flex justify-content-end align-items-center mt-3">
+            <p class="text-white">
+              جميع الحقوق محفوظة &copy; لمتجر السلام للأدوات الإلكترونية 2025
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- cart -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="cart"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+          سلة المشتريات
+        </h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="row row-cols-1 row-mini-card m-1">
+          <div
+            class="col mini-cart d-flex justify-content-around align-items-center"
+          >
+            <img src="images/product/light1.jpg" alt="" class="img-fluid w-25" />
+           <p>مصباح سقف</p>
+            <div class="btn-group btns-quantity-mini">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn">-</button>
+            </div>
+          </div>
+          <div
+            class="col mini-cart d-flex justify-content-around align-items-center"
+          >
+            <img src="images/product/Outdoors1_.jpg" alt="" class="img-fluid w-25" />
+            <p>أثاث خارجي</p>
+            <div class="btn-group btns-quantity-mini">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn">-</button>
+            </div>
+          </div>
+          <div
+            class="col mini-cart d-flex justify-content-around align-items-center"
+          >
+            <img src="images/product/kitchen1.jpg" alt="" class="img-fluid w-25" />
+            <p>مطبخ مودرن</p>
+            <div class="btn-group btns-quantity-mini">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn">-</button>
+            </div>
+          </div>
+          <div
+            class="col mini-cart d-flex justify-content-around align-items-center"
+          >
+            <img src="images/product/dt113.jpg" alt="" class="img-fluid w-25" />
+            <p>غرفة طعام</p>
+            <div class="btn-group btns-quantity-mini">
+              <button type="button" class="btn">+</button>
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn">-</button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column gap-2">
+          <p class="text-center my-3 alert alert-danger p-3">
+            مجموع المنجات 6500$ فقط لا غير
+          </p>
+          <button class="btn btn-primary w-100">
+            <a href="cart.html">عرض السلة</a>
+          </button>
+          <button class="btn btn-danger w-100">
+            <a href="checkout.html">إتمام الطلب </a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- login -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="login"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">تسجيل الدخول</h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="mini-login">
+          <form>
+            <div class="mb-3">
+              <label for="email" class="form-label"
+                >اسم المستخدم أو البريد الإلكتروني</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">كلمة المرور</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >تذكر بياناتي</label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              تسجيل الدخول
+            </button>
+          </form>
+          <div class="alert alert-danger my-3 text-center">
+            <a href="#">انقر هنا في حال نسيت كلمة المرور</a>
+          </div>
+          <hr />
+          <div class="text-center mt-5">
+            <i class="fa-regular fa-user fa-5x"></i>
+            <p>لا يوجد لديك حساب؟</p>
+            <a href="#" class="btn btn-danger w-100 text-white"
+              >إنشاء حساب جديد</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="quick-product"
+      aria-hidden="true"
+      aria-labelledby="quick-productLabel"
+      tabindex="-1"
+    >
+    
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <h5 class="modal-title fs-4 fw-bold" id="quick-productLabel">
+            <i class="fas fa-bed me-2 text-primary"></i>غرفة نوم 6 قطع - رمادي
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body py-0">
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <!-- قسم الصور -->
+            <div class="col">
+              <div class="product-gallery">
+                <img class="img-fluid rounded-3 shadow mb-3" src="images/product/freepik__expand__88171.jpg" alt="غرفة نوم 6 قطع رمادي">
+                
+              
+                <button class="btn btn-primary w-100 mb-3">
+              <a href="product.html">  كافة التفاصيل</a>
+                </button>
+                
+                <!-- المعلومات الإضافية -->
+                <div class="additional-info">
+                  <div class="d-flex flex-wrap gap-3 mb-3">
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-shield-alt text-primary me-2"></i>
+                      <small>ضمان 3 سنوات</small>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-truck text-primary me-2"></i>
+                      <small>توصيل مجاني خلال 3-5 أيام</small>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="fas fa-exchange-alt text-primary me-2"></i>
+                      <small>إرجاع مجاني خلال 30 يوم</small>
+                    </div>
+                  </div>
+                  
+                  <!-- التصنيفات والمشاركة -->
+                  <div class="d-flex flex-wrap justify-content-between pb-3">
+                    <div class="category mb-2">
+                      <span class="text-muted">التصنيفات:</span>
+                      <a href="#" class="badge bg-light text-dark ms-2">غرف نوم</a>
+                      <a href="#" class="badge bg-light text-dark">أثاث منزلي</a>
+                    </div>
+                    <div class="form-check mb-2">
+                      <input class="form-check-input" type="checkbox" id="installation">
+                      <label class="form-check-label" for="installation">
+                        خدمة التركيب المنزلي (+250 $)
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="warranty">
+                      <label class="form-check-label" for="warranty">
+                        تمديد الضمان إلى 5 سنوات (+500 $)
+                      </label>
+                    </div>
+                   
+                  </div>
+                </div>
+                 <!-- خيارات إضافية -->
+           
+              </div>
+            </div>
+            
+            <!-- قسم التفاصيل -->
+            <div class="col">
+              <div class="brand-logo mb-3">
+                <img width="120" src="images/samsung.png" alt="لوجو هوم ستايل">
+              </div>
+              
+              <h1 class="modal-title fs-4 my-2">غرفة نوم كاملة 6 قطع - رمادي مودرن</h1>
+              
+              <div class="product-description mb-3">
+                <p class="text-muted">مجموعة غرفة نوم عصرية تتكون من 6 قطع بتصميم أنيق ولون رمادي عصري، مصنوعة من مواد عالية الجودة لتدوم طويلاً.</p>
+                
+                <ul class="fa-ul text-muted small">
+                  <li class="mb-1"><span class="fa-li"><i class="fas fa-check text-success"></i></span>سرير كبير 180×200 سم مع هيكل معدني مقوى</li>
+                  <li class="mb-1"><span class="fa-li"><i class="fas fa-check text-success"></i></span>خزانة ملابس 3 أبواب + مرآة داخلية</li>
+                  <li class="mb-1"><span class="fa-li"><i class="fas fa-check text-success"></i></span>منضدة زينة بعرض 120سم مع مرآة دوارة</li>
+                  <li class="mb-1"><span class="fa-li"><i class="fas fa-check text-success"></i></span>2 كومودينو جانبي + منضدة سرير</li>
+                </ul>
+              </div>
+              
+              <!-- التقييمات -->
+              <div class="quick-reviews mb-3 p-3 bg-light rounded">
+                <div class="d-flex align-items-center mb-2">
+                  <div class="stars me-2 text-warning">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-alt"></i>
+                  </div>
+                  <span class="fw-bold">4.5/5</span>
+                  <span class="mx-2">|</span>
+                  <a href="#reviews" class="text-decoration-underline">(86 تقييم)</a>
+                </div>
+                <div class="progress mb-1" style="height: 8px;">
+                  <div class="progress-bar bg-success" style="width: 90%"></div>
+                </div>
+                <small class="text-muted">91% من العملاء يوصون بهذا المنتج</small>
+              </div>
+              
+              <!-- السعر -->
+              <div class="price mb-3">
+                <div class="d-flex align-items-center">
+                  <span class="fs-3 fw-bold text-danger me-3">4,999$</span>
+                  <span class="text-decoration-line-through text-muted">6,499$</span>
+                  <span class="badge bg-danger ms-2">وفر 23%</span>
+                </div>
+                <small class="text-success fw-bold"><i class="fas fa-check-circle me-1"></i>شامل الضريبة</small>
+              </div>
+              
+              <!-- الأزرار -->
+              <div class="btns d-flex gap-2 mb-4">
+                <div class="btn-group btns-quantity shadow-sm">
+                  <button type="button" class="btn btn-outline-secondary">-</button>
+                  <button type="button" class="btn">1</button>
+                  <button type="button" class="btn btn-outline-secondary">+</button>
+                </div>
+                <div class="d-flex gap-2 add-btn flex-grow-1">
+                  <button class="btn btn-danger flex-grow-1 py-2">
+                    <i class="fas fa-cart-plus me-2"></i>إضافة للسلة
+                  </button>
+                  <button class="btn btn-success flex-grow-1 py-2">
+                    <i class="fas fa-bolt me-2"></i>شراء الآن
+                  </button>
+                </div>
+              </div>
+              
+            
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div
+      class="modal fade"
+      id="quick-product2"
+      aria-hidden="true"
+      aria-labelledby="quick-productLabel2"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="quick-productLabel2">Modal 2</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Hide this modal and show the first with the button below.
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-primary"
+              data-bs-target="#quick-product"
+              data-bs-toggle="modal"
+              data-bs-dismiss="modal"
+            >
+              Back to first
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------------------------------------------------------------------------------------- -->
+    <!-- filter products using isotope library -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!-- slider using swipper js library -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- links js -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/script.js"></script>
+        <!-- ------------------------------------------------------------------- -->
+    <!-- live chat  للتواصل بين موقع الويب والمنصة  -->
+    <!--Start of Tawk.to Script-->
+    <script src="js/chat.js"></script>
+  </body>
+</html>
